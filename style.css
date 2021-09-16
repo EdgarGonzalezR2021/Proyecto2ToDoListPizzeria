@@ -38,7 +38,7 @@ body {
   }
   /* Heading */
   h3,
-  label[for='tareaNueva'] {
+  label[for='tarea-nueva'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -64,11 +64,11 @@ body {
   }
   
   /* Nuevo Pedido */
-  label[for='tareaNueva'] {
+  label[for='tarea-nueva'] {
     display: block;
     margin: 0 0 20px;
   }
-  input#tareaNueva {
+  input#tarea-nueva {
     float: left;
     width: 318px;
   }
@@ -103,14 +103,14 @@ body {
 
 
   /* TAREAS COMPLETAS */
-  #completed-tasks label {
+  #tareasCompletadas label {
     text-decoration: line-through;
     color: #888;
   }
   
 
-  
-  /* Editar Tarea */
+
+  /* editar Tarea */
   ul li input[type=text] {
     display:none;
   }
