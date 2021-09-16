@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>Pizza Gourmet</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+
+</head>
+
+<body>
+
+    </ <div class="container">
+        <p>
+            <label for="new-task">Nuevo Pedido</label><input id="new-task" type="text"><button>Agregar Pedido</button>
+        </p>
+
+        <h3>Pendientes de Entregar</h3>
+        <ul id="incomplete-tasks">
+            <li>
+                <input type="checkbox">
+                <label>Pizza Pepperoni</label>
+                <input type="text">
+                <button class="editarclass">Editar</button>
+                <button class="deleteclass">Eliminar</button>
+            </li>
+
+            
+            <li class="editMode">
+                <input type="checkbox">
+                <label>Hamburguesa doble carne</label>
+                <input type="text" value="Hamburguesa doble carne">
+                <button class="editclass">Editar</button>
+                <button class="deleteclass">Eliminar</button>
+            </li>
+        
+
+        </ul>
+
+        <h3>Entregado</h3>
+        <ul id="completed-tasks">
+            <li>
+                <input type="checkbox" checked>
+                <label>Especial doble queso</label>
+                <input type="text">
+                <button class="editclass">Editar</button>
+                <button class="deleteclass">Eliminar</button>
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+
+</body>
+
+</html>
