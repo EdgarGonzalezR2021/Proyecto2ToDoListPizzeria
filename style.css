@@ -38,7 +38,7 @@ body {
   }
   /* Heading */
   h3,
-  label[for='new-task'] {
+  label[for='tareaNueva'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -63,12 +63,12 @@ body {
     color: #333;
   }
   
-  /* New Task */
-  label[for='new-task'] {
+  /* Nuevo Pedido */
+  label[for='tareaNueva'] {
     display: block;
     margin: 0 0 20px;
   }
-  input#new-task {
+  input#tareaNueva {
     float: left;
     width: 318px;
   }
@@ -76,7 +76,7 @@ body {
     color: #025a37;
   }
   
-  /* Task list */
+  /* TAREAS INCOMPLETAS */
   li {
     overflow: hidden;
     padding: 20px 0;
@@ -100,13 +100,17 @@ body {
     color: #CF2323;
   }
   
-  /* Completed */
+
+
+  /* TAREAS COMPLETAS */
   #completed-tasks label {
     text-decoration: line-through;
     color: #888;
   }
   
-  /* Edit Task */
+
+  
+  /* Editar Tarea */
   ul li input[type=text] {
     display:none;
   }
